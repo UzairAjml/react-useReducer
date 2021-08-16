@@ -1,0 +1,52 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+}
+
+.list {
+  list-style: none;
+}
+
+.items {
+  margin: auto;
+  min-width: 32rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  background-color: orange;
+  border: 2px dashed black;
+  margin-top: 2px;
+  padding: 16px 16px;
+}
+
+.edit:hover {
+  background-color: gray;
+}
+.del:hover {
+  background-color: red;
+}
+.text {
+  margin-left: 12px;
+  cursor: pointer;
+}
+
+.text-gray {
+  background-color: rgb(69, 231, 20);
+}
+
+.line-through {
+  text-decoration: line-through;
+}
+.form {
+  display: flex;
+  justify-content: center;
+  padding: 5px;
+}
+
+.task {
+  border: black 2px solid;
+}
